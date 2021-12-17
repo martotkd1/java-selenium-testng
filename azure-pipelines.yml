@@ -8,7 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  name: 'My Host'
+  name: 'MyHost'
 
 steps:
 - task: Maven@3
