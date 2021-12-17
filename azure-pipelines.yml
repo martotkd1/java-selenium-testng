@@ -8,6 +8,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  demands:
+    -agent.name -equals 'My Host'
 
 steps:
 - task: Maven@3
